@@ -1,0 +1,46 @@
+/* table, th, td {
+    border: 1px solid black;
+    } */
+
+    /*table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    }*/
+
+table, th, td {
+    border: 1px solid black;
+    border-spacing: 10px;
+}  
+
+th, td {
+    padding: 5px;
+    /*background-color: rgb(145, 158, 232); */
+}
+
+th, td {
+    text-align: center;
+ }
+
+ul {
+    list-style-type: disc;
+    font-size: 24px
+}
+ol {
+    list-style-type: lower-roman;
+    font-size: 24px
+}
+
+.listas-container {
+    background-color: aqua;
+    border: solid;
+    display: flex; /* Usar flexbox para colocar as listas lado a lado */
+    /*justify content: center; justify-content */ /* Centralizar as listas horizontalmente */
+    justify-content: space-between; /* Espaçamento entre as listas */
+    gap: 5px; /* Espaçamento entre as listas */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: blue;
+}
