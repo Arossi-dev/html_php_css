@@ -8,13 +8,17 @@
 </head>
 <body>
     <?php
-        $nome = $_GET['nome'];
-        echo "O nome enviado via GET foi: " . $nome;
-    ?>  
+    if (isset($_GET['nome']) ) {
+    $nome = $_GET['nome'];
+    echo "O nome enviado via GET foi: " . $nome;
+    }
+    ?> 
+
     <?php
+    if (isset($_POST['nome']) ) {
     $nome = $_POST['nome'];
     echo "O nome enviado via POST foi: " . $nome;
-    ?>
-    
+    }
+    ?> 
 
       
